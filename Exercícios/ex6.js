@@ -5,11 +5,11 @@ for (let i = name.length - 1; i >= 0; i--) {
     invercao += name[i];
 }
 
-if (invercao === nome) {
+if (invercao.toLowerCase() === nome.toLowerCase()) {
     return true;
 } else {
     return false;
 }
 }
 
-console.log(inverteString("thiago"));
+console.log(inverteString("Arara"));
